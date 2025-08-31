@@ -7,11 +7,11 @@ implementation provides a Rope for arrays of bytes, but it should be easy to
 modify it for other types of elements (this can be made generic in future
 versions of Go).
 
-This repository is a fork of the original
+**This repository is a fork of the original
 [code](https://github.com/zyedidia/rope). Most of the code is the same, but
 there are improvements to modernize the codebase with newer Go features,
 especially related to slice operations, such as `slices.Insert`,
-`slices.Concat` and more.
+`slices.Concat` and more.**
 
 ## Benchmarkings
 
